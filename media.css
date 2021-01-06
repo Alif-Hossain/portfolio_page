@@ -1,0 +1,29 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .profile-img{
+        border: 3px solid rgb(209, 179, 179);
+        border-radius: 45%;
+        display: block;
+        margin: 0 auto;
+    } 
+    .header-contact{
+        padding: 30px;
+        margin-top: 100px;
+    }
+    .header_img img .profile-img{
+        margin: 0 auto;
+    }
+    .header_img{
+        margin-top: 20px;
+    }
+    .bio{
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1500px) { 
+.bio_ {
+    margin-top: 30px;
+}
+}
+
